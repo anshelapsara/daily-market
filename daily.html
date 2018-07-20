@@ -1,0 +1,150 @@
+<html>
+<head>
+<title>daily</title>
+<style>
+h{
+font-family:Times New Roman,Times,serif;
+font-size: 4vw;
+font-style: oblique;
+text-align:center;
+font-weight: bold;
+font-variant:small-caps;
+}
+.f{
+color: #ff0000;
+}
+.l{
+color:#0000a0;
+}
+ul{list-style-type:none;
+margin:0;
+padding:0;
+overflow:hidden;
+background-color:#333;
+position:fixed;
+top:80;
+width:100%;
+}
+li{float:left;
+border-right:1px solid #bbb;
+}
+li a{display:block;
+color:white;
+text-align:center;
+padding: 14px 16px;
+text-decoration: none;
+}
+li a:hover:not(.active)
+{
+background-color:#111;
+}
+.active{
+background-color: #4CAF50;
+}
+h1{text-align:left;
+position:fixed;
+top:120;
+font-size:2vw;
+}
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+div {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+position:fixed;
+top:180;
+}table{
+
+    width:1000px;
+heigth:1000px
+border-collapse:collapse;
+position:fixed;
+top:500;
+}
+td{background:red;border:1px solid #000}
+td a{display:block;position:relative}
+td a:hover{background:blue;color:#fff}
+caption { 
+    display: table-caption;
+    text-align: left;
+font-size:2vw;
+}
+</style>
+</head>
+<body>
+<h class="f">Daily</h>
+<h class="l">Veggie</h>
+<h class="f">Market</h>
+<ul>
+<li><a class="active" href="#home">Home</a></li>
+<li><a href="#news">News</a><li>
+<li><a href=#contact">Contact</a></li>
+<li><a href=about">About</a></li>
+</ul> 
+<h1>Vegetables daily market Price</h1><br><br><br><br>
+<div>
+<form>
+<label for="state">Select state</label>
+    <select id="state" name="state">
+      <option value="tamil nadu">Tamil Nadu</option>
+      <option value="kerala">Kerala</option>
+      <option value="karnataka">Karnataka</option>
+    </select>
+<label for="city">Select City</label>
+    <select id="city name="city">
+      <option value="chennai">Chennai</option>
+      <option value="kochi">Kochi</option>
+      <option value="bangalore">Bangalore</option>
+    </select>
+  
+    <input type="submit" value="Submit">
+  </form>
+</div><br><br>
+
+<table cellspacing="0" cellpadding="0">    
+<caption>Find the vegetables price in Mandi retail market and wholesale shops</caption>
+<tr>
+        <td><a href="#">Tamil Nadu</a></td>
+        <td><a href="#">Kerala</a></td>
+<td><a href="#">Madhya Pradesh</a></td>
+    </tr>
+    <tr>
+        <td><a href="#">Karnataka</a></td>
+        <td><a href="#">Andra Pradesh</a></td>
+   <td><a href="#">Punjab</a></td>
+</tr>
+    <tr>
+        <td><a href="#">Gujarat</a></td>
+        <td><a href="#">Maharashtra</a></td>
+  <td><a href="#">Bihar</a></td>  
+</tr>
+</table>
+
+
+
+</body>
+</html>
